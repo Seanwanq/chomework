@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\10174.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\10174.dir/objects.a @CMakeFiles\10174.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\10174.dir/objects.a -Wl,--no-whole-archive  -o 10174.exe -Wl,--out-implib,lib10174.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\10174.dir\linklibs.rsp
